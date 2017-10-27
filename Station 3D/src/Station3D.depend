@@ -1,0 +1,159 @@
+# depslib dependency file v1.0
+1393527305 source:z:\station 3d\graph functions\domain.cpp
+	"domain.h"
+
+1393527340 z:\station 3d\graph functions\domain.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<ctype.h>
+	"libsaferesource.h"
+	"sha1.h"
+
+1393248642 z:\station 3d\graph functions\libsaferesource.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	"sha1.h"
+
+1392585632 z:\station 3d\graph functions\sha1.h
+	<stdio.h>
+	<string.h>
+
+1393531386 source:z:\station 3d\graph functions\libsaferesource.cpp
+	"libsaferesource.h"
+
+1393179206 source:z:\station 3d\graph functions\sha1.cpp
+	"sha1.h"
+	<stdio.h>
+
+1393247139 source:z:\station 3d\irrlichtlauncher.cpp
+	"irrlichtLauncher.h"
+	"Graph Functions/libsaferesource.h"
+
+1392756046 z:\station 3d\irrlichtlauncher.h
+	<irrlicht.h>
+
+1393531525 source:z:\station 3d\main.cpp
+	"Graph Functions/domain.h"
+	"irrlichtLauncher.h"
+	"Splashscreen.h"
+	"Station.h"
+	"PauseMenu.h"
+
+1389005046 z:\station 3d\splashscreen.h
+	<irrlicht.h>
+
+1393165644 z:\station 3d\station.h
+	<irrlicht.h>
+	"Shaders Effects/CRendererPostProc.h"
+	"Shaders Effects/CEffectPostProc.h"
+	"Shaders Effects/CTransitionPostProc.h"
+	"Shaders Effects/CSplitPostProc.h"
+	"Shaders Effects/CLensFlarePostProc.h"
+	"Shaders Effects/CWaterPostProc.h"
+	"Graph Functions/domain.h"
+
+1391943822 z:\station 3d\shaders effects\crendererpostproc.h
+	"IPostProc.h"
+
+1391943828 z:\station 3d\shaders effects\ipostproc.h
+	"CShaderCallbacks.h"
+	"shaders.h"
+
+1391943824 z:\station 3d\shaders effects\cshadercallbacks.h
+
+1391943830 z:\station 3d\shaders effects\shaders.h
+
+1391943820 z:\station 3d\shaders effects\ceffectpostproc.h
+	"IPostProc.h"
+
+1391943826 z:\station 3d\shaders effects\ctransitionpostproc.h
+	"IPostProc.h"
+
+1391943826 z:\station 3d\shaders effects\csplitpostproc.h
+	"IPostProc.h"
+
+1391943820 z:\station 3d\shaders effects\clensflarepostproc.h
+	"IPostProc.h"
+
+1391943828 z:\station 3d\shaders effects\cwaterpostproc.h
+	"CRendererPostProc.h"
+
+1392756644 z:\station 3d\pausemenu.h
+	<iostream>
+	<irrlicht.h>
+	"Station.h"
+
+1393529427 source:z:\station 3d\pausemenu.cpp
+	"PauseMenu.h"
+
+1393527306 source:z:\station 3d\ressources.rc
+
+1391943820 source:z:\station 3d\shaders effects\ceffectpostproc.cpp
+	<irrlicht.h>
+	"CEffectPostProc.h"
+
+1391943820 source:z:\station 3d\shaders effects\clensflarepostproc.cpp
+	<irrlicht.h>
+	"CLensFlarePostProc.h"
+
+1391943822 source:z:\station 3d\shaders effects\crendererpostproc.cpp
+	<irrlicht.h>
+	"CRendererPostProc.h"
+
+1391943824 source:z:\station 3d\shaders effects\csplitpostproc.cpp
+	<irrlicht.h>
+	"CSplitPostProc.h"
+
+1391943826 source:z:\station 3d\shaders effects\ctransitionpostproc.cpp
+	<irrlicht.h>
+	"CTransitionPostProc.h"
+
+1391943828 source:z:\station 3d\shaders effects\cwaterpostproc.cpp
+	<irrlicht.h>
+	"CWaterPostProc.h"
+
+1391943828 source:z:\station 3d\shaders effects\ipostproc.cpp
+	<irrlicht.h>
+	"IPostProc.h"
+
+1392588672 source:z:\station 3d\splashscreen.cpp
+	"Splashscreen.h"
+
+1393528551 source:z:\station 3d\station.cpp
+	"Station.h"
+	"PauseMenu.h"
+
+1393527305 source:z:\station 3d\src\graph functions\domain.cpp
+	"domain.h"
+
+1393527340 z:\station 3d\src\graph functions\domain.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<ctype.h>
+	"libsaferesource.h"
+	"sha1.h"
+
+1393248642 z:\station 3d\src\graph functions\libsaferesource.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	"sha1.h"
+
+1392585632 z:\station 3d\src\graph functions\sha1.h
+	<stdio.h>
+	<string.h>
+
+1393531918 source:z:\station 3d\src\graph functions\libsaferesource.cpp
+	"libsaferesource.h"
+
+1393179206 source:z:\station 3d\src\graph functions\sha1.cpp
+	"sha1.h"
+	<stdio.h>
+

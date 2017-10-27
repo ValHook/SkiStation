@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1393449403 source:z:\station 2d\domain.c
+	"domain.h"
+
+1393346466 z:\station 2d\domain.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<ctype.h>
+	"libsaferesource.h"
+	"sha1.h"
+
+1393259829 z:\station 2d\libsaferesource.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+
+1393259829 z:\station 2d\sha1.h
+	<stdio.h>
+	<string.h>
+	"libsaferesource.h"
+
+1393523206 source:z:\station 2d\libsaferesource.c
+	"libsaferesource.h"
+
+1393525457 source:z:\station 2d\main.c
+	"domain.h"
+	"gui.h"
+
+1393525457 z:\station 2d\gui.h
+	<allegro.h>
+	<winalleg.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"domain.h"
+	"libsaferesource.h"
+	"sha1.h"
+
+1393525630 source:z:\station 2d\sha1.c
+	"sha1.h"
+	<stdio.h>
+
+1393524108 source:z:\station 2d\gui.c
+	"gui.h"
+
+1393449403 source:z:\station 2d\src\domain.c
+	"domain.h"
+
+1393346466 z:\station 2d\src\domain.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<ctype.h>
+	"libsaferesource.h"
+	"sha1.h"
+
+1393259829 z:\station 2d\src\libsaferesource.h
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+
+1393259829 z:\station 2d\src\sha1.h
+	<stdio.h>
+	<string.h>
+	"libsaferesource.h"
+
+1393525719 source:z:\station 2d\src\gui.c
+	"gui.h"
+
+1393525457 z:\station 2d\src\gui.h
+	<allegro.h>
+	<winalleg.h>
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	"domain.h"
+	"libsaferesource.h"
+	"sha1.h"
+
+1393523206 source:z:\station 2d\src\libsaferesource.c
+	"libsaferesource.h"
+
+1393534247 source:z:\station 2d\src\main.c
+	"domain.h"
+	"gui.h"
+
+1393526150 source:z:\station 2d\src\ressources.rc
+
+1393534247 source:z:\station 2d\src\sha1.c
+	"sha1.h"
+	<stdio.h>
+

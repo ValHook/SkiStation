@@ -1,0 +1,160 @@
+/* Donnees du graphe de la station de ski
+Copyright: Valentin Mercier | Antoine Loret */
+
+/* TEMPS DE PARCOURS DES PISTES ET REMONTEES */
+PISTE_VERTE = 300
+PISTE_BLEUE = 240
+PISTE_ROUGE = 180
+PISTE_NOIRE = 120
+PISTE_KL = 10
+PISTE_SURF = 600
+TPH_ATTENTE = 240
+TPH_PARCOURS = 120
+TC_ATTENTE = 120
+TC_PARCOURS = 180
+TSD_ATTENTE = 60
+TSD_PARCOURS = 180
+TS_ATTENTE = 60
+TS_PARCOURS = 240
+TK_ATTENTE = 60
+TK_PARCOURS = 240
+BUS_ARCS_1600_2000 = 2400
+BUS_ARCS_1800_2000 = 1800
+
+/* POINTS */
+37
+1	villaroger	1200		14.764195 2.250090 -2.386246
+2	2	1425		4.965979 2.519754 -22.243202
+3	3	2135		2.826933 1.548084 -23.900467
+4	4	2458		1.336542 2.223769 -23.814817
+5	aiguille-rouge	3226		-0.854773 4.972632 -23.487583
+6	6	2158		-2.181065 3.013012 -24.270988
+7	arc2000	2120		13.720995 2.554193 -16.872099
+8	pre-saint-esprit	1822		6.29016 2.39272 -12.7192
+9	9	2120		-2.146389 0.588998 -22.590475
+10	10	2015		1.924295 3.910254 -17.357136
+11	11	2195		1.041736 0.519134 -14.109655
+12	12	2670		-1.028517 0.558626 -19.003550
+13	grand-col	2835		-15.494607 2.365582 -30.707706
+14	14	2446		-17.817675 2.213249 -18.954920
+15	arpette	2418		-1.740691 1.922400 -12.608777
+16	16	2296		-18.932899 2.758881 -13.291279
+17	17	2375		-17.585365 2.779389 -5.052402
+18	18	2314		-1.740691 1.922400 -15.608777
+19	deux-tetes	2285		1.80767 1.70187 -11.9056
+20	20	2063		12.892959 1.832818 -4.332047
+21	21	2160		-18.629696 2.347559 1.597092
+22	22	2230		-10.788853 0.787154 -13.804255
+23	col-des-frettes	2384		-1.740691 2.922400 -12.608777
+24	24	2280		9.800787 2.251715 -21.248316
+25	25	2294		-9.427891 2.165590 -17.362583
+26	col-de-la-chal	2600	-3.398137 2.845284 -16.550564	
+27	27	2275		-15.829473 1.821854 -16.671921
+28	28	1750		11.423773 0.858705 -14.081090
+29	29	1850		15.029084 2.042638 -7.864767
+30	arc1600	1613		1.80767 1.70187 -9.9056
+31	31	2050		-5.737369 1.635273 -21.963619
+32	col-du-grand-renard	2454		9.548607 2.118285 -8.090658
+33	33	2150		3.567104 1.883518 -14.170251
+34	34	1920		0.367151 1.350598 -2.843837
+35	35	1830		-12.314642 1.240678 -14.332055
+36	arc1800	1715		-9.38105 2.72104 -4.25661
+37	37	2100		-3.553199 2.261233 -8.851344
+
+/* PISTES ET REMONTEES */
+95
+1	aiguille-rouge	TPH	12	5	0
+2	aiguille-rouge1	N	5	4	10
+3	aiguille-rouge2	N	4	3	10
+4	aiguille-rouge3	N	3	2	10
+5	aiguille-rouge4	N	2	1	15
+6	arandeliere	R	5	12	20
+7	arpette	TS	31	15	0
+8	belvedere1	B	18	19	15
+9	belvedere2	B	19	31	20
+10	belvedere3	B	31	35	10
+11	bois-de-l'ours	TS	10	15	0
+12	bosses	TK	16	26	0
+13	cachette	R	21	30	20
+14	cachette	TSD	30	21	0
+15	carreley	R	31	36	20
+16	carreley	TS	36	31	0
+17	cascade	B	10	8	10
+18	chantel	B	34	36	10
+19	chantel	TS	36	34	0
+20	clair-blanc	R	15	31	20
+21	clair-blanc	TS	31	22	0
+22	clapet	B	17	21	20
+23	clocheret	R	17	31	20
+24	clocheret	TS	31	17	0
+25	col-de-la-chal	B	26	14	20
+26	col-des-frettes	R	23	24	20
+27	col-des-frettes	TS	31	23	0
+28	col-du-renard	B	26	32	20
+29	combes	N	4	6	20
+30	combettes	TS	30	28	0
+31	comborciere	N	18	8	20
+32	comborciere	TS	8	18	0
+33	dent-du-peigne	B	32	25	20
+34	deux-tetes	TK	20	19	0
+35	deux-tetes	N	19	20	20
+36	dou-de-l-homme	N	12	11	20
+37	droset	N	4	8	20
+38	fond-blanc	B	22	31	20
+39	fond-blanc	N	15	22	20
+40	frettes	TK	31	24	0
+41	froide-fontaine	R	27	31	20
+42	genepy	N	5	6	20
+43	gollet	B	31	30	20
+44	gollet	TS	30	31	0
+45	grand-col	R	13	14	20
+46	grand-col	TS	14	13	0
+47	grand-renard	R	32	33	20
+48	grand-renard	TS	33	32	0
+49	lac-combes	TK	7	6	0
+50	lanches	N	12	9	20
+51	lanchettes	TS	7	4	0
+52	malgovert	R	18	20	20
+53	marmotte	TK	10	11	0
+54	marmottes	B	11	10	20
+55	mont-blanc	B	20	30	20
+56	mont-blanc	TS	30	20	0
+57	muguet	N	17	8	20
+58	navette1600-1800	BUS	30	36	0
+59	navette1800-1600	BUS	36	30	0
+60	navette1600-2000	BUS	30	7	0
+61	navette2000-1600	BUS	7	30	0
+62	ours	N	15	10	20
+63	plagnettes	TSD	11	26	0
+64	plan	B	23	11	20
+65	plan-des-eaux	B	26	16	20
+66	plan-vert	B	26	25	20
+67	plan-vert	TK	25	26	0
+68	plan-violettes	TS	2	3	0
+69	pre-saint-esprit	TS	8	11	0
+70	refuge	N	13	14	20
+71	replat	TS	1	2	0
+72	reservoir	R	4	6	20
+73	rhonaz	B	3	8	20
+74	saint-jacques	B	11	9	20
+75	saint-jacques	TS	9	11	0
+76	snowpark	SURF	24	31	20
+77	soliet1	R	4	3	20
+78	soliet2	R	3	2	20
+79	soliet3	R	2	1	20
+80	tetras	R	27	35	20
+81	tommelet	TK	30	29	0
+82	transarc1	TC	36	37	0
+83	transarc2	TC	37	26	0
+84	tuffes	R	26	16	20
+85	vagere	TK	35	27	0
+86	vallee-de-l-arc1	B	14	16	20
+87	vallee-de-l-arc2	B	16	11	20
+88	vallee-de-l-arc	R	11	10	20
+89	varet	TC	9	12	0
+90	vezaille	TK	28	29	0
+91	villards	B	37	36	20
+92	villards	TSD	36	33	0
+93	villaroger1	B	8	2	20
+94	villaroger2	B	2	1	20
+95	vitesse	KL	12	6	20
